@@ -45,10 +45,12 @@ class Emoji
         // @todo
         return preg_replace(
             [
-                '/\<3/'
+                '/\<3/',
+                '/\ð\Ÿ\’/',
             ],
             [
-                ($html ? '<img alt="emoji-heart" src="' : '').'http://svg.org/heart.svg'.($html ? '"/>' : ''),
+                ($html ? '<img class="emoji" alt="emoji-heart" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f497.svg'.($html ? '"/>' : ''),
+                ($html ? '<img class="emoji" alt="emoji-heart" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f497.svg'.($html ? '"/>' : ''),
             ],
             $text
         );

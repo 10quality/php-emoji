@@ -18,8 +18,8 @@ class EmojiTest extends PHPUnit_Framework_TestCase
     public function testFunctionImage()
     {
         $this->assertEquals(
-            'http://svg.org/heart.svg',
-            emoji_to_img('<3')
+            'https://s.w.org/images/core/emoji/2.3/svg/1f497.svg',
+            emoji_to_img('ðŸ’')
         );
     }
     /**
@@ -28,8 +28,8 @@ class EmojiTest extends PHPUnit_Framework_TestCase
     public function testFunctionHTML()
     {
         $this->assertEquals(
-            '<img alt="emoji-heart" src="http://svg.org/heart.svg"/>',
-            emoji_to_html('<3')
+            '<img class="emoji" alt="emoji-heart" src="https://s.w.org/images/core/emoji/2.3/svg/1f497.svg"/>',
+            emoji_to_html('ðŸ’')
         );
     }
 }

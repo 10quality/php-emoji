@@ -21,7 +21,6 @@ use TenQuality\Utility\Emoji;
  */
 function emoji_to_img($text)
 {
-    // @todo return 'http://svs.org/smile.svg'
     return Emoji::convert($text, Emoji::URL);
 }
 
@@ -35,6 +34,5 @@ function emoji_to_img($text)
  */
 function emoji_to_html($text)
 {
-    // @todo return '<img src="http://svs.org/smile.svg"/>'
     return Emoji::convert($text, Emoji::HTML);
 }

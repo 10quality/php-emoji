@@ -1,0 +1,5 @@
+# Dependencies
+/vendor
+
+# Generated files
+composer.lock

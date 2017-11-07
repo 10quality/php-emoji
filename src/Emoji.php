@@ -32,7 +32,7 @@ class Emoji
 
     /**
      * Converts given text emoji characters into valid emoji icons.
-     * @since 1.0.1
+     * @since 1.0.2
      *
      * @param string $text   Text to convert.
      * @param string $output Output format.
@@ -46,7 +46,7 @@ class Emoji
             [
                 '/\<3/',
                 '/\ð\Ÿ\’/',
-                '/\â\˜\•\ï’/',
+                '/\â\˜\•\ï\¸/',
                 '/\:\)/',
                 '/\:D/',
                 '/\:\(/',
@@ -54,6 +54,7 @@ class Emoji
                 '/\:P/',
                 '/\O\:\)/',
                 '/o\.\O/',
+                '/\;\)/',
                 '/\:\O/',
                 '/\-\_\-/',
                 '/\>\:\O/',
@@ -62,11 +63,9 @@ class Emoji
                 '/\8\-\)/',
                 '/\8\|/',
                 '/\>\:\(/',
-                '/\:\v/',
                 '/\☺/',
                 '/\(\y\)/',
                 '/\➡/',
-                '/\;\)/',
             ],
             [
                 ($html ? '<img class="emoji" alt="emoji-heart" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f497.svg'.($html ? '"/>' : ''),
@@ -91,7 +90,6 @@ class Emoji
                 ($html ? '<img class="emoji" alt="emoji-flushed" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f633.svg'.($html ? '"/>' : ''),
                 ($html ? '<img class="emoji" alt="emoji-thumbs-up" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f44d.svg'.($html ? '"/>' : ''),
                 ($html ? '<img class="emoji" alt="emoji-right" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/27a1.svg'.($html ? '"/>' : ''),
-                ($html ? '<img class="emoji" alt="emoji-wink" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f609.svg'.($html ? '"/>' : ''),
             ],
             $text
         );

@@ -1,6 +1,13 @@
 {
     "name": "10quality/php-emoji",
     "description": "PHP Emoji coverter library.",
+    "license": "MIT",
+    "homepage": "https://github.com/10quality/php-emoji",
+    "keywords": [
+        "emoji",
+        "svg"
+    ],
+    "type": "library",
     "authors": [
         {
             "name": "10 Quality",

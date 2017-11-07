@@ -8,7 +8,7 @@ namespace TenQuality\Utility;
  * @author Alejandro Mostajo <info@10quality.com>
  * @package TenQuality\Utility\Emoji
  * @license MIT
- * @version 1.0.1
+ * @version 1.0.2
  */
 class Emoji
 {
@@ -66,6 +66,7 @@ class Emoji
                 '/\☺/',
                 '/\(\y\)/',
                 '/\➡/',
+                '/\;\)/',
             ],
             [
                 ($html ? '<img class="emoji" alt="emoji-heart" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f497.svg'.($html ? '"/>' : ''),
@@ -87,10 +88,10 @@ class Emoji
                 ($html ? '<img class="emoji" alt="emoji-eyeglasses" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f453.svg'.($html ? '"/>' : ''),
                 ($html ? '<img class="emoji" alt="emoji-sunglasses" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f60e.svg'.($html ? '"/>' : ''),
                 ($html ? '<img class="emoji" alt="emoji-unamused" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f612.svg'.($html ? '"/>' : ''),
-                ($html ? '<img class="emoji" alt="emoji-unamused" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f612.svg'.($html ? '"/>' : ''),
                 ($html ? '<img class="emoji" alt="emoji-flushed" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f633.svg'.($html ? '"/>' : ''),
                 ($html ? '<img class="emoji" alt="emoji-thumbs-up" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f44d.svg'.($html ? '"/>' : ''),
                 ($html ? '<img class="emoji" alt="emoji-right" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/27a1.svg'.($html ? '"/>' : ''),
+                ($html ? '<img class="emoji" alt="emoji-wink" src="' : '').'https://s.w.org/images/core/emoji/2.3/svg/1f609.svg'.($html ? '"/>' : ''),
             ],
             $text
         );
